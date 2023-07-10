@@ -1,5 +1,5 @@
-# EMBEDDING-A-MACHINE-LEARNING-MODEL-INTO-A-GUI
-Embedding Machine Learning model into Graphical User Interface (GUI) using STREAMLIT and GRADIO
+# GRADIO-APP-FOR-SALES-PREDICTION-FOR-CUSTOMER-CHURN
+Gradio Web app for classification project to predict customer churn
 
 ## Introduction
 In this project, I explored how to embed an ML model into a web app for easy interaction with STREAMLIT and GRADIO.
