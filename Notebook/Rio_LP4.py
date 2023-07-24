@@ -5,12 +5,12 @@ import numpy as np
 import pickle
 
 # Load the model and encoder and scaler
-model = pickle.load(open("rf_model.pkl", "rb"))
-encoder = pickle.load(open("encoder.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("ml_components/rf_model.pkl", "rb"))
+encoder = pickle.load(open("ml_components/encoder.pkl", "rb"))
+scaler = pickle.load(open("ml_components/scaler.pkl", "rb"))
 
 # Load the data
-data = pd.read_csv('data_.csv')
+data = pd.read_csv('data/data_.csv')
 
 # Define the input and output interfaces for the Gradio app
 def create_gradio_inputs(data):
